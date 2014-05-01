@@ -27,7 +27,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import de.schildbach.wallet_test.R;
+import de.schildbach.wallet.riecoin.R;
 
 /**
  * @author Andreas Schildbach

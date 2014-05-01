@@ -31,7 +31,7 @@ import com.google.bitcoin.core.ScriptException;
 import com.google.bitcoin.core.Transaction;
 import com.google.bitcoin.protocols.payments.PaymentRequestException;
 import com.google.bitcoin.protocols.payments.PaymentSession;
-import com.google.bitcoin.protocols.payments.PaymentSession.PkiVerificationData;
+import com.google.bitcoin.protocols.payments.PaymentProtocol.PkiVerificationData;
 import com.google.bitcoin.script.Script;
 import com.google.bitcoin.script.ScriptBuilder;
 import com.google.protobuf.ByteString;
@@ -91,8 +91,8 @@ public final class PaymentProtocol
 			{
 				// implicitly verify PKI signature
 				final PkiVerificationData verificationData = new PaymentSession(paymentRequest, true).pkiVerificationData;
-				pkiName = verificationData.name;
-				pkiOrgName = verificationData.orgName;
+				pkiName = verificationData.displayName;
+				pkiOrgName = verificationData.displayName;
 				pkiCaName = verificationData.rootAuthorityName;
 			}
 			else

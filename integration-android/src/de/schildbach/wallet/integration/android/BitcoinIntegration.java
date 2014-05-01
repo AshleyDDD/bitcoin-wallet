@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package de.schildbach.wallet.integration.android;
+package de.schildbach.wallet.riecoin.integration.android;
 
 import android.app.Activity;
 import android.content.Context;
