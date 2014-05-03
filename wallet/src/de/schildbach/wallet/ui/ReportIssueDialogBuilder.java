@@ -46,7 +46,7 @@ import android.widget.Toast;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.util.CrashReporter;
 import de.schildbach.wallet.util.Io;
-import de.schildbach.wallet.R;
+import org.riecoinfoundation.riecoinandroid.R;
 
 /**
  * @author Andreas Schildbach

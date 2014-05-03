@@ -35,7 +35,7 @@ import android.view.View;
 
 import com.google.zxing.ResultPoint;
 
-import de.schildbach.wallet.R;
+import org.riecoinfoundation.riecoinandroid.R;
 
 /**
  * @author Andreas Schildbach

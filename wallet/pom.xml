@@ -7,7 +7,7 @@
 	<artifactId>wallet</artifactId>
 	<packaging>apk</packaging>
 	<version>3.46</version>
-	<name>Bitcoin Wallet</name>
+	<name>Riecoin Wallet</name>
 
 	<parent>
 		<groupId>de.schildbach.wallet</groupId>
@@ -60,8 +60,8 @@
 		<!-- com.google.bitcoin.* -->
 		<dependency>
 			<groupId>com.google</groupId>
-			<artifactId>bitcoinj</artifactId>
-			<version>0.11.2</version>
+			<artifactId>riecoinj</artifactId>
+			<version>0.12-SNAPSHOT</version>
 		</dependency>
 
 		<!-- de.schildbach.wallet.integration.android.* -->

@@ -28,7 +28,7 @@ import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
 
 import de.schildbach.wallet.PaymentIntent;
-import de.schildbach.wallet.R;
+import org.riecoinfoundation.riecoinandroid.R;
 
 /**
  * @author Andreas Schildbach

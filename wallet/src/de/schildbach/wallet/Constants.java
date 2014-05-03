@@ -28,7 +28,7 @@ import com.google.bitcoin.core.NetworkParameters;
 import com.google.bitcoin.params.MainNetParams;
 import com.google.bitcoin.params.TestNet3Params;
 
-import de.schildbach.wallet.R;
+import org.riecoinfoundation.riecoinandroid.R;
 
 /**
  * @author Andreas Schildbach
@@ -52,7 +52,7 @@ public class Constants
 
 	public static final String CHECKPOINTS_FILENAME = "checkpoints" + FILENAME_NETWORK_SUFFIX;
 
-	private static final String EXPLORE_BASE_URL_PROD = "https://www.biteasy.com/";
+	private static final String EXPLORE_BASE_URL_PROD = "http://chainz.cryptoid.info/ric/";
 	private static final String EXPLORE_BASE_URL_TEST = "https://www.biteasy.com/testnet/";
 	public static final String EXPLORE_BASE_URL = NETWORK_PARAMETERS.getId().equals(NetworkParameters.ID_MAINNET) ? EXPLORE_BASE_URL_PROD
 			: EXPLORE_BASE_URL_TEST;
@@ -61,15 +61,15 @@ public class Constants
 	public static final String MIMETYPE_BACKUP_PRIVATE_KEYS = "x-bitcoin/private-keys";
 
 	public static final int MAX_NUM_CONFIRMATIONS = 7;
-	public static final String USER_AGENT = "Bitcoin Wallet";
+	public static final String USER_AGENT = "Riecoin Wallet";
 	public static final String DEFAULT_EXCHANGE_CURRENCY = "USD";
 	public static final int WALLET_OPERATION_STACK_SIZE = 256 * 1024;
 	public static final long BLOCKCHAIN_STATE_BROADCAST_THROTTLE_MS = DateUtils.SECOND_IN_MILLIS;
 	public static final long BLOCKCHAIN_UPTODATE_THRESHOLD_MS = DateUtils.HOUR_IN_MILLIS;
 
-	public static final String CURRENCY_CODE_BTC = "BTC";
-	public static final String CURRENCY_CODE_MBTC = "mBTC";
-	public static final String CURRENCY_CODE_UBTC = "µBTC";
+	public static final String CURRENCY_CODE_BTC = "RIC";
+	public static final String CURRENCY_CODE_MBTC = "mRIC";
+	public static final String CURRENCY_CODE_UBTC = "µRIC";
 	public static final char CHAR_HAIR_SPACE = '\u200a';
 	public static final char CHAR_THIN_SPACE = '\u2009';
 	public static final char CHAR_ALMOST_EQUAL_TO = '\u2248';
@@ -91,8 +91,8 @@ public class Constants
 	public static final String REPORT_SUBJECT_CRASH = "Crash report";
 
 	public static final String LICENSE_URL = "http://www.gnu.org/licenses/gpl-3.0.txt";
-	public static final String SOURCE_URL = "https://github.com/schildbach/bitcoin-wallet";
-	public static final String BINARY_URL = "https://github.com/schildbach/bitcoin-wallet/releases";
+	public static final String SOURCE_URL = "https://github.com/AshleyDDD/riecoin-wallet";
+	public static final String BINARY_URL = "https://github.com/AshleyDDD/riecoin-wallet/releases";
 	public static final String CREDITS_BITCOINJ_URL = "http://code.google.com/p/bitcoinj/";
 	public static final String CREDITS_ZXING_URL = "https://github.com/zxing/zxing";
 	public static final String CREDITS_ICON_URL = "https://bitcointalk.org/index.php?action=profile;u=2062";

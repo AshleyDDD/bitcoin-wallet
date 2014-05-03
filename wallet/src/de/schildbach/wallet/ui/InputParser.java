@@ -48,7 +48,7 @@ import de.schildbach.wallet.PaymentIntent;
 import de.schildbach.wallet.util.Io;
 import de.schildbach.wallet.util.PaymentProtocol;
 import de.schildbach.wallet.util.Qr;
-import de.schildbach.wallet.R;
+import org.riecoinfoundation.riecoinandroid.R;
 
 /**
  * @author Andreas Schildbach
